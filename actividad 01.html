@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad 01</title>
+        <link rel="stylesheet" href=".\css\styles01.css" />
+    </head>
+
+    <body>
+        <h1>Conciertos</h1>
+        <p>Llevamos a cabo una serie de conciertos durante el año.</p>
+        <p> Tenga en cuenta que los siguientes eventos son de entrada de mayor valor 	a 300 USD:</p>
+        <ul>
+            <li>System of a Down</1i>
+            <li>Pierce the Veil</li>
+        </ul>
+        <table>
+            <tr class="head">
+                <th></th>
+                <th>Milán</th>
+                <th>París</th>
+                <th>Berlín</th>
+                </tと>
+            <tr>
+	    <tr class="never">
+                <th>Pierce the Veil</th>
+                <td> Sab, 25 Mar 2023<br />4pm - 8pm</td>
+                <td> Mie, 14 Jun 2023<br />2pm - 6pm</td>
+                <td> Vie, 18 Ago 2023<br />8pm - 12pm</td>
+            </tr>
+            <tr class="even">
+                <th>My Chemical Romance</th>
+                <td>Sab, 12 Abr 2023<br />11am - 1pm</td>
+                <td> Vie, 8 May 2023<br />11am - 1pm</td>
+                <td> Mar, 25 May 2023<br />11am - 1pm</td>
+            </tr>
+            <tr>
+	    <tr class="never">
+                <th>Green Day</th>
+                <td> Dom, 8 Jun 2023<br />11am - 2pm</td>
+                <td> Sab, 15 Jul 2023<br />11am - 2pm</td>
+                <td> Lun, 14 Ago 2023<br />11am - 2pm</td>
+            </tr>
+            <tr class="even">
+                <th>System of a Down</th>
+                <td> Lun, 24 Ago 2023<br />11am - 4pm</td>
+                <td> Jue, 10 Sep 2023<br />11am - 4pm</td>
+                <td> Sab, 30 Sep 2023<br />11am - 4pm</td>
+            </tr>
+        </table>
+        <br>
+        <form action="actividad 02.html" method="get">
+            <fieldset>
+                <legend>Inscríbase en el concierto de su interes:</legend>
+                <p><label class="title" for="name">Nombre:</label>
+                    <input type="text" name="name" id="name"><br />
+                    <label class="title" for="email">Correo:</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p><label for="location" class="title">Su centro cercano:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Milán</option>
+                        <option value="ib">París</option>
+                        <option value="me">Berlín</option>
+                    </select>
+                </p>
+                <span class="title">¿Es un miembro premium?</span>
+                <label><input type="radio" name="member" value="si" />
+                    Si</label>
+                <label><input type="radio" name="member" value="no" />
+                    No</label></p>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Registrarse" />
+            </div>
+        </form>
+    </body>
+
+</html>
